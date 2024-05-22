@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-recipe-detail',
   standalone: true,
-  imports: [],
+  imports: [MatButtonModule,MatMenuModule],
   templateUrl: './recipe-detail.component.html',
 })
-export class RecipeDetailComponent {
-
+export class RecipeDetailComponent
+{
 }

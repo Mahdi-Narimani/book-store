@@ -1,1 +1,28 @@
-<p>recipe-detail works!</p>
+<div class="flex flex-col gap-2">
+    <img src=""
+    alt=""
+    class="" />
+    <h1>Recipe Name</h1>
+
+    <div>
+        <button mat-raised-button
+        [matMenuTriggerFor]="menu">Manage Recipe</button>
+        <mat-menu #menu="matMenu"
+        class="mt-1">
+            <button mat-menu-item
+            href="#">To Shopping List</button>
+            <button mat-menu-item
+            href="#">Edit Recipe</button>
+            <button mat-menu-item
+            href="#">Delete Recipe</button>
+        </mat-menu>
+    </div>
+
+    <div>
+        <p>Description</p>
+    </div>
+    
+    <div>
+        Ingredient
+    </div>
+</div>

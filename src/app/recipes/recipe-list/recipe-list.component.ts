@@ -8,13 +8,26 @@ import { MatButtonModule } from "@angular/material/button";
   imports: [RecipeItemComponent, MatButtonModule],
   templateUrl: "./recipe-list.component.html",
 })
-export class RecipeListComponent {
+export class RecipeListComponent
+{
   recipes: Recipe[] = [
     {
-      name: "A Test Recipe",
+      name: "A Test Recipe1",
       description: "This is a simply test",
       imagePath:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4iRgpUe5m7xPQpU_VDsrlYzDrg6b8R0JUfTcAL3OQaw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8ps0E5UMDoHTUTcEk4D_jTUPvt2Wa3igLO9DycUSRw&s",
+    },
+    {
+      name: "A Test Recipe2",
+      description: "This is a simply test",
+      imagePath:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8ps0E5UMDoHTUTcEk4D_jTUPvt2Wa3igLO9DycUSRw&s",
+    },
+    {
+      name: "A Test Recipe3",
+      description: "This is a simply test",
+      imagePath:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8ps0E5UMDoHTUTcEk4D_jTUPvt2Wa3igLO9DycUSRw&s",
     },
   ];
 }
